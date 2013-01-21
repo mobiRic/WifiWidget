@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- the system adds a margin of 8dp from SDK14 onwards -->
+    <!-- custom launchers need to be catered for as per http://stackoverflow.com/a/13952521/383414 -->
+    <dimen name="widget_margin">0dp</dimen>
+
+</resources>

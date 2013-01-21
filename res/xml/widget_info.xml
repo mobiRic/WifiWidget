@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/widget"
+    android:initialLayout="@layout/widget"
+    android:minHeight="40dp"
+    android:minWidth="250dp"
+    android:updatePeriodMillis="0" >
+
+    <!-- NOTE 1: -->
+    <!-- Widget sizing is done in terms of "blocks" on the screen. -->
+    <!-- Each block is 74dp square. -->
+
+
+    <!-- NOTE 2: -->
+    <!-- OLD & WRONG FORMULA used to be: size = (n*74) - 2 -->
+
+
+    <!-- NOTE 3: -->
+    <!-- NEW FORMULA has been UPDATED: size = (n*70) - 30 -->
+    <!-- Based on new formula, the size should be 40dp. -->
+
+</appwidget-provider>

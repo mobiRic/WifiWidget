@@ -3,7 +3,7 @@ WiFi Widget Demo (Android)
 
 Basic widget demo app for Android. 
 
-Provides boilerplate widget code, and some trivial network detection code. Code not of a particularly good quality, just thrown together quickly to get the proof-of-concept demo done.
+Provides boilerplate widget code, and some trivial network detection code. Code thrown together quickly as a proof-of-concept demo.
 
 
 Widget displays:
@@ -11,7 +11,7 @@ Widget displays:
   - IP address of active WiFi connection
 
 
-The only use I get out of this is to show me my IP so I can easily set up wireless debugging when I arrive at work each morning.
+I use this widget to show me my IP so I can easily set up wireless debugging without having to open WiFi settings.
 
 
 @mobiRic

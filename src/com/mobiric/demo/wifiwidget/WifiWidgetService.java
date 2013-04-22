@@ -104,13 +104,10 @@ public class WifiWidgetService extends Service
 	private class WidgetUpdateThread extends Thread
 	{
 		Context context;
-		/** @deprecated unused - probably delete later. */
-		Intent intent;
 
 		WidgetUpdateThread(Context context, Intent intent)
 		{
 			this.context = context;
-			this.intent = intent;
 		}
 
 		@Override

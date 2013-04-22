@@ -4,15 +4,22 @@ import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
-import com.mobiric.demo.wifiwidget.R;
 
+/**
+ * A very basic {@link AppWidgetProvider} implementation that delegates
+ * the actual processing to the {@link WifiWidgetService}.
+ */
 public class WifiWidgetProvider extends AppWidgetProvider
 {
 
 	@Override
-	public void onUpdate(Context context, AppWidgetManager appWidgetManager,
-		int[] appWidgetIds)
+	public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds)
 	{
+		/*
+		 * AppWidgetProvider extends BroadcastReceiver, so we must not spend
+		 * lots of processing time in this class. Actual processing is done in
+		 * a Service so that this method can return as quickly as possible.
+		 */
 		context.startService(getIntentForService(context));
 	}
 
@@ -38,8 +45,7 @@ public class WifiWidgetProvider extends AppWidgetProvider
 	 */
 	private Intent getIntentForService(Context context)
 	{
-		Intent widgetService = new Intent(context.getApplicationContext(),
-			WifiWidgetService.class);
+		Intent widgetService = new Intent(context.getApplicationContext(), WifiWidgetService.class);
 		return widgetService;
 	}
 

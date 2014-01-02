@@ -1,4 +1,4 @@
-package com.mobiric.demo.wifiwidget;
+package mobiric.demo.wifiwidget;
 
 import android.annotation.SuppressLint;
 import android.app.PendingIntent;
@@ -15,7 +15,7 @@ import android.os.IBinder;
 import android.provider.Settings;
 import android.util.Log;
 import android.widget.RemoteViews;
-import com.mobiric.demo.wifiwidget.R;
+import mobiric.demo.wifiwidget.R;
 
 /**
  * Service that provides background processing in order to update the info on

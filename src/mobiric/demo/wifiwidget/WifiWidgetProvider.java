@@ -1,4 +1,4 @@
-package com.mobiric.demo.wifiwidget;
+package mobiric.demo.wifiwidget;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;

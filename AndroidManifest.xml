@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mobiric.demo.wifiwidget"
+    package="mobiric.demo.wifiwidget"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -23,10 +23,10 @@
 
 
         <!-- SERVICES -->
-        <service android:name=".WifiWidgetService" />
+        <service android:name="mobiric.demo.wifiwidget.WifiWidgetService" />
 
         <!-- BROADCAST RECEIVERS -->
-        <receiver android:name=".NetWatcher" >
+        <receiver android:name="mobiric.demo.wifiwidget.NetWatcher" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE" />
@@ -34,7 +34,7 @@
         </receiver>
 
         <!-- WIDGET -->
-        <receiver android:name=".WifiWidgetProvider" >
+        <receiver android:name="mobiric.demo.wifiwidget.WifiWidgetProvider" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

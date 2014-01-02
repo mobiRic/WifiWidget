@@ -1,9 +1,9 @@
-package com.mobiric.demo.wifiwidget;
+package mobiric.demo.wifiwidget;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.mobiric.demo.wifiwidget.R;
+import mobiric.demo.wifiwidget.R;
 
 public class NetWatcher extends BroadcastReceiver
 {

@@ -4,7 +4,8 @@
     android:initialLayout="@layout/widget"
     android:minHeight="40dp"
     android:minWidth="250dp"
-    android:updatePeriodMillis="0" >
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen|keyguard" >
 
     <!-- NOTE 1: -->
     <!-- Widget sizing is done in terms of "blocks" on the screen. -->

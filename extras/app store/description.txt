@@ -1,0 +1,30 @@
+TITLE:
+------
+
+WiFi Widget
+
+
+SHORT DESCRIPTION:
+------------------
+
+Basic widget demo app for Android.
+
+
+LONG DESCRIPTION:
+-----------------
+
+Widget showing IP address when connected to a wi-fi network:
+  - clicking the wi-fi icon opens the Android Wi-Fi settings.
+  - clicking the IP address opens the settings for the connected network.
+
+
+This is designed as a simple demo app, for tutorial purposes.
+
+Source code is hosted at https://github.com/mobiRic/WifiWidget.
+
+
+WHAT'S NEW:
+-----------
+
+v 1.1.0
+  - add About page

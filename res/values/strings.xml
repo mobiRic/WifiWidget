@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">Wifi IP Widget</string>
+    <string name="app_name">WiFi Widget</string>
 
     <string name="wifi_status_not_connected">no wifi connection</string>
 

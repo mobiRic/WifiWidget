@@ -20,7 +20,13 @@
         android:theme="@style/AppTheme" >
 
         <!-- ACTIVITIES -->
+        <activity android:name="lib.about.AboutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <!-- SERVICES -->
         <service android:name="mobiric.demo.wifiwidget.WifiWidgetService" />

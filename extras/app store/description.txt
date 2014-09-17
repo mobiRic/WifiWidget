@@ -27,4 +27,4 @@ WHAT'S NEW:
 -----------
 
 v 1.1.0
-  - add About page
+  - UI updates

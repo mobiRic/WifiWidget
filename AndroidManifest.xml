@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="mobiric.demo.wifiwidget"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="16"
+        tools:ignore="OldTargetApi" />
 
     <!-- PERMISSIONS -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -20,7 +22,13 @@
         android:theme="@style/AppTheme" >
 
         <!-- ACTIVITIES -->
+        <activity android:name="lib.about.AboutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <!-- SERVICES -->
         <service android:name="mobiric.demo.wifiwidget.WifiWidgetService" />

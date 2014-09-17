@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white_alpha_aa">#aafdfdfd</color>
+    <color name="gold">#ffcc33</color>
+    <color name="translucent_gold_divider">#4fffcc33</color>
+    <color name="grey_text">#475248</color>
+
+
+</resources>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+ 
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
     <!-- the system adds a margin of 8dp from SDK14 onwards -->
     <!-- custom launchers need to be catered for as per http://stackoverflow.com/a/13952521/383414 -->
     <dimen name="widget_margin">8dp</dimen>

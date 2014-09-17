@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ABOUT BOX -->
+    <color name="about_background_overlay">@color/white_alpha_aa</color>
+    <color name="about_feature_graphic_frame">@color/gold</color>
+    <color name="about_divider">@color/translucent_gold_divider</color>
+
+</resources>
